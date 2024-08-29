@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja bike center em sarandi </title>
+    <link rel="stylesheet" href="front-end_2C_2T_08_miqueias.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Loja Bike Runners Em São Paulo </h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Sobre Nós</h2>
+            <p>Bem-vindo à nossa loja! Oferecemos uma variedade de bikes e peças de bike de alta qualidade.
+
+            </p>
+        </section>
+
+        <section>
+            <h2>Imagem da Bike Runners </h2>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7Fu-Yynf4CKhmjNV0lNYqq8pT-0IPMbveHA&s" alt="Imagem da Loja">
+        </section>
+
+        <section>
+            <h2>Localização</h2> 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.4252885161995!2d-46.56666892383203!3d-23.553164478805368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5eeb1e17e5eb%3A0x43007ce3f8ce95ba!2sBike%20Runners%20-%20Bike%20Shop!5e0!3m2!1spt-BR!2sbr!4v1724931954912!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section>
+            <h2>Vídeo Promocional</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/yrCpmAqsulg?si=ovSareCabmbAbRgV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Loja Bike Runners. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
+/* Importando fonte externa */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Aplicando a fonte ao corpo da página */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f06, #ff9);
+}
+
+/* Estilizando o cabeçalho */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Estilizando o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Estilizando as seções */
+section {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+/* Estilizando a imagem */
+img {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.8; /* Adicionando transparência à imagem */
+}
+
+/* Adicionando pseudo-elemento ao corpo */
+body::before {
+    content: "Bem-vindo à nossa loja!";
+    display: block;
+    font-size: 1.5rem;
+    color: #fff;
+    text-align: center;
+    margin: 1rem 0;
+    font-weight: bold;
+}
